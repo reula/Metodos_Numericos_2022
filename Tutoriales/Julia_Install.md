@@ -1,4 +1,4 @@
-## Cómo instalar Juila o otros accesorios.
+## Cómo instalar Juila con su Jupyter y algunas primeras nociones de uso.
 
 Aqui daremos las instrucciones para instalar Julia y otros accesorios.
 
