@@ -46,8 +46,9 @@ Cada vez que comienze a trabajar deberá llamar al REPL e ingresar los dós últ
 Para probar que todo el sistema funciona es importante generar una primer notebook donde escribiremos nuestros primeros códigos.
 
 Para ello apretamos el rectángulo azul en la izquierda-arriba que tiene un +, eso abrirá un *launcher* donde verán el logo de Julia
-![launcher](launcher.jpg)
+![launcher](launcher.jpeg)
 Apretamos el mismo y habremos generado un notebook donde trabajar. En el mismo veremos una región rectangular donde se puede ingresar código, esto se llama una **celda**.
+Hay distintos tipos de celda de acuerdo al lenguaje que querramos usar. Cerciorece que la última pestaña que muestra el siguiente gráfico diga **Code**. ![celda](celda.png)
 
 En la primer celda escribimos:
 
@@ -56,10 +57,17 @@ En la primer celda escribimos:
 a continuación tecleamos `mayuscula-enter` (`shift-return`) simultáneamente, lo cual ejecutará la primer celda. Si todo anduvo bien debiera imprimirse debajo de la celda
 **Hola mundo**. Se abrirá también una segunda donde podremos ingresar más código.
 
+![hola_mundo](hola_mundo.png)
+
 La segunda celda la usaremos para incorporar una librería que usaremos mucho durante el curso, la `Plots.jl`. Para ello ingresaremos,
 
 `using Pkg`
-`Pkg.add(Plots)`
+
+`Pkg.add("Plots")`
+
+`using Plots`
+
+![adding_plots](adding_plots.png)
 
 y luego ejecutamos la celda con `mayuscula-enter`. Julia procederá a instalar el paquete **Plots** y nos irá mostrando el avance. Si todo anda bien culminará sin errores y nos abrirá una nueva celda. 
 
@@ -67,7 +75,7 @@ En ella ingresaremos:
 
 `plot(sin)`
 
-Cuando la ejecutemos se producirá un gráfico de la función *seno*. 
+Cuando la ejecutemos se producirá un gráfico de la función *seno*. ![plot_sin](plot_sin.png)
 
 #### Ejercicios: ###
 
@@ -75,6 +83,8 @@ Si quiere seguir aprediendo puede hacer algunos ejercicios símples:
 
 1. Visite la página de la librería Plots.jl, [https://docs.juliaplots.org/latest/tutorial/](https://docs.juliaplots.org/latest/tutorial/) y trate de reproducir y entender la lógica de algunos ejemplos. También hay numerosos videos en youtube mostrando como generar gráficos.
 2. Además de las celdas de código hay celdas de *markdown* que es una manera de editar y presentar código en forma grafíca de buena calidad. Practique poniendo título e indicaciones del código que escribió entre las celdas de código. Pueden ver un tutorial en [https://markdown.es/sintaxis-markdown/](https://markdown.es/sintaxis-markdown/). Hay muchísimos otros tutoriales y videos. 
+
+Estos dos ejercicios le brindarán una herramienta poderosa que podrá usar en muchas instancias de su carrera.
 
 
 
