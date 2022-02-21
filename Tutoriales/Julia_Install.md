@@ -18,8 +18,10 @@ Allí ya puede ejecutar comandos de Julia.
 
 ### Trabajando con Julia
 
-Vamos a trabajar con  `IJulia`, es un notebook similar a Jupyter, pero nativo de Julia. Las instrucciones para su instalació
-        instalación las pueden encontrar [https://github.com/JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl)
+Vamos a trabajar con  `IJulia`, es un notebook similar a Jupyter, pero nativo de Julia. Las instrucciones para su instalación
+las pueden encontrar [https://github.com/JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl)
+
+Alternativamente se puede bajar una aplicación de Jupyterlab que se puede encontrar en [https://github.com/jupyterlab/jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop)
    
         
 Alternativamente puede usar `Pluto`, es un nuevo tipo de notebook que es muy intersante y tiene varias ventajas sobre los otros. Pero estas ventajas también lo hacen complicado para personas con poca experiencia en la escritura de códigos. Por lo tanto **No lo recomendamos**. 
