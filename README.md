@@ -1,6 +1,6 @@
 # Metodos Numéricos 2022
 
-`git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
+Repositorio `git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
 
 Las clases virtuales se dictarán en la sala virtual de google meet [https://meet.google.com/cmt-hobf-aoq](https://meet.google.com/cmt-hobf-aoq).
 
