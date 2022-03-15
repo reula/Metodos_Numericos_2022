@@ -13,6 +13,6 @@ Hay una carpeta con tutoriales, incluyendo uno sobre cómo instalar Julia.
 
 * [Julia básico](https://github.com/jltabara/Julia-y-las-Matematicas).
 
-* [Vectores en Julia](https://drive.google.com/file/d/1I-jJH3eUCN8FM-aAMGSpebyukgMgg2Am/view).
-
 * [Una versión de *Think in Julia* en español](https://introajulia.org/introAjulia.pdf).
+
+* [Vectores en Julia](https://drive.google.com/file/d/1I-jJH3eUCN8FM-aAMGSpebyukgMgg2Am/view).
