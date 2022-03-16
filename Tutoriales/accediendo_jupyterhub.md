@@ -21,3 +21,5 @@ A continuación habra su browser e ingrese la dirección:
 `http://localhost:8000`
 
 Le deberá aparecer una pantalla del jupyterlab remoto en esa página. Desde allí podrá trabajar con Julia.
+
+Para terminar la conección, cierre las páginas abiertas via el puerto `8000`, e ingrese la línea de comando `exit` en la terminal. El `prompt` de la terminal debería volver al de su computadora.
