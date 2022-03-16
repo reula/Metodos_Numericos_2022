@@ -1,4 +1,4 @@
-## Instrucciones de como acceder a la instancia de jupyterhab de FaMAF
+## Instrucciones de como acceder a la instancia de jupyterhub de FaMAF
 
 En la Facultad tenemos instalado (gracias a Nicolás Wolovick) un servidor de jupyterhub. 
 Para acceder a el se necesita: 
