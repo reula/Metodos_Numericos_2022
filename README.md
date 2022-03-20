@@ -14,6 +14,12 @@ Repositorio `git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
 
     [https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5](https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5)
 
+## Útiles
+
+* Una versión de **Think in Julia** en español: [https://introajulia.org/](https://introajulia.org/).
+
+* Curso de extensión **Introducción a la programación en Julia con aplicaciones científicas, FAMAF (2022)**: [https://github.com/jipphysics/curso-extension-julia-famaf-2021](https://github.com/jipphysics/curso-extension-julia-famaf-2021).
+
 <!---
 
 ## Utiles
