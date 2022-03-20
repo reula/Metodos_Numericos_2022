@@ -2,17 +2,13 @@
 
 Repositorio `git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
 
-* Las clases virtuales se dictarán en la sala virtual de google meet:
-
-    [https://meet.google.com/fns-yxpz-pux](https://meet.google.com/fns-yxpz-pux)
+* Las clases virtuales se dictarán en la sala virtual de google meet: [https://meet.google.com/fns-yxpz-pux](https://meet.google.com/fns-yxpz-pux).
 
 * Las guías de la materia serán subidas a la carpeta `Guias`.
 
 * En la carpeta `Tutoriales` pueden encontrar distintos tutoriales, incluyendo uno sobre cómo instalar Julia.
 
-* Las clases virtuales grabadas serán subidas a:
-
-    [https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5](https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5)
+* Las clases virtuales grabadas serán subidas a: [https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5](https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5).
 
 ## Útiles
 
