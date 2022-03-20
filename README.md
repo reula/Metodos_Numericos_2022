@@ -4,7 +4,7 @@ Repositorio `git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
 
 * Las clases virtuales se dictarán en la sala virtual de google meet 
 
-    [https://meet.google.com/cmt-hobf-aoq](https://meet.google.com/cmt-hobf-aoq).
+    [https://meet.google.com/fns-yxpz-pux](https://meet.google.com/fns-yxpz-pux).
 
 * Las guías de la materia serán subidas a la carpeta `Guias`.
 
