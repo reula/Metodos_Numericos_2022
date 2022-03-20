@@ -56,8 +56,16 @@ Finalmente, activamos el administrador de notebooks llamado `JupyterLab` ingresa
     julia> jupyterlab()
     
 La primera vez que ejecute este comando tomará un tiempo apreciable hasta que se complete el cargado del sofware y se compile el código. En particular, la primera vez le preguntará si desea instalar **Jupyter**, si no lo tiene ya instalado acceda a ello. En tal caso instalará otro paquete, llamado `Conda.jl`. 
-Una vez completado el proceso le debería aparecer una página en su browser donde podrá comenzar a trabajar con su notebook.
-Cada vez que comienze a trabajar deberá llamar al REPL e ingresar los dós últimos comandos. Recomendamos ver algún video que les muestre como trabajar. Es la forma más eficiente de aprender lo básico.
+Una vez completado el proceso le debería aparecer una página en su navegador (browser) donde podrá comenzar a trabajar con su notebook.
+Mientras el administrador de notebooks esté activo, la consola REPL de Julia permanecerá inactiva, por lo que no podrá ingresar comandos en la misma.
+La cónsola REPL de Julia volverá a la normalidad, una vez que Ud. apague el administrador de notebooks en el browser.
+
+Cada vez que desee comenzar una nueva sesión para trabajar con el administrador de notebooks, deberá ingresar en la cónsola REPL de julia los dós últimos comandos:
+
+    julia> using IJulia    
+    julia> jupyterlab()
+
+Recomendamos ver algún video que les muestre como trabajar. Es la forma más eficiente de aprender lo básico.
 
 ### Primer notebook
 
