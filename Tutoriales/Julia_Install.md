@@ -32,14 +32,27 @@ Alternativamente puede usar `Pluto`, es un nuevo tipo de notebook que es muy int
    
  ## Instalando IJulia
  
- Para ello debe instalar el *paquete* con el código necesario. En la consola REPL presione la tecla `]`, eso le dará acceso al administrador de paquetes. 
- Una ves allí escriba: (alternativamente, desde el REPL simplemente ingrese: `julia> Pkg.add("IJulia")`).
+Para instalar paquetes debemos primero activar el administrador de paquetes ingresando el comando:
+
+    julia> using Pkg
+
+
+Luego, para instalar el *paquete* `IJulia` ingrese el comando:
+
+    julia> Pkg.add("IJulia")
+
+Alternativamente a estos dos pasos, puede activar una cónsola REPL especializada en administrar paquetes presionando la tecla `], para luego ingresar el comando:
  
     (@v1.7) pkg> add IJulia
-    
-A continuación (una vez instalado) salga del administrador de paquetes con la tecla `borrar` o `delete` o `backspace` e ingrese:
+       
+Para salir de la cónsola para administrar paquetes y volver a la cónsola común de Julia, presione repetidamente la tecla `borrar` o `delete` o `backspace`.
+
+Una vez instalado el paquete `IJulia`, lo activamos ingresando el comando:
 
     julia> using IJulia
+    
+Finalmente, activamos el administrador de notebooks llamado `JupyterLab` ingresando el comando:
+    
     julia> jupyterlab()
     
 La primera vez que ejecute este comando tomará un tiempo apreciable hasta que se complete el cargado del sofware y se compile el código. En particular, la primera vez le preguntará si desea instalar **Jupyter**, si no lo tiene ya instalado acceda a ello. En tal caso instalará otro paquete, llamado `Conda.jl`. 
