@@ -9,7 +9,10 @@ La instalación de los binarios de Julia es bastante sencilla:
 Ir a la [https://julialang.org/downloads/](https://julialang.org/downloads/)
         
 Allí elija la instalación de acuerdo al sistema operativo de su computadora. Hoy en día casi todas las computadoras ya son de 64bits, 
-pero por las dudas constate si no es de 32 bits, en tal caso use el apropiado.
+pero por las dudas constate si no es de 32 bits, en tal caso use el apropiado. 
+
+Complementariamente, puede inspeccionar las instrucciones para instalar Julia en su sistema operativo en la misma página de Julia. Por ejemplo, para instalar Julia en Windows siga [éstas instrucciones](https://julialang.org/downloads/platform/#windows).
+
         
 ### Siga las instrucciones de instalación de acuerdo a su sistema. 
         
@@ -18,8 +21,10 @@ Allí ya puede ejecutar comandos de Julia.
 
 ### Trabajando con Julia
 
-Vamos a trabajar con  `IJulia`, es un notebook similar a Jupyter, pero nativo de Julia. Las instrucciones para su instalació
-        instalación las pueden encontrar [https://github.com/JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl)
+Vamos a trabajar con  `IJulia`, es un notebook similar a Jupyter, pero nativo de Julia. Las instrucciones para su instalación
+las pueden encontrar [https://github.com/JuliaLang/IJulia.jl](https://github.com/JuliaLang/IJulia.jl)
+
+Alternativamente se puede bajar una aplicación de Jupyterlab que se puede encontrar en [https://github.com/jupyterlab/jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop)
    
         
 Alternativamente puede usar `Pluto`, es un nuevo tipo de notebook que es muy intersante y tiene varias ventajas sobre los otros. Pero estas ventajas también lo hacen complicado para personas con poca experiencia en la escritura de códigos. Por lo tanto **No lo recomendamos**. 
@@ -27,19 +32,40 @@ Alternativamente puede usar `Pluto`, es un nuevo tipo de notebook que es muy int
    
  ## Instalando IJulia
  
- Para ello debe instalar el *paquete* con el código necesario. En la consola REPL presione la tecla `]`, eso le dará acceso al administrador de paquetes. 
- Una ves allí escriba: (alternativamente, desde el REPL simplemente ingrese: `julia> Pkg.add("IJulia")`).
+Para instalar paquetes debemos primero activar el administrador de paquetes ingresando el comando:
+
+    julia> using Pkg
+
+
+Luego, para instalar el *paquete* `IJulia` ingrese el comando:
+
+    julia> Pkg.add("IJulia")
+
+Alternativamente a estos dos pasos, puede activar una cónsola REPL especializada en administrar paquetes presionando la tecla `], para luego ingresar el comando:
  
     (@v1.7) pkg> add IJulia
-    
-A continuación (una vez instalado) salga del administrador de paquetes con la tecla `borrar` o `delete` o `backspace` e ingrese:
+       
+Para salir de la cónsola para administrar paquetes y volver a la cónsola común de Julia, presione repetidamente la tecla `borrar` o `delete` o `backspace`.
+
+Una vez instalado el paquete `IJulia`, lo activamos ingresando el comando:
 
     julia> using IJulia
+    
+Finalmente, activamos el administrador de notebooks llamado `JupyterLab` ingresando el comando:
+    
     julia> jupyterlab()
     
 La primera vez que ejecute este comando tomará un tiempo apreciable hasta que se complete el cargado del sofware y se compile el código. En particular, la primera vez le preguntará si desea instalar **Jupyter**, si no lo tiene ya instalado acceda a ello. En tal caso instalará otro paquete, llamado `Conda.jl`. 
-Una vez completado el proceso le debería aparecer una página en su browser donde podrá comenzar a trabajar con su notebook.
-Cada vez que comienze a trabajar deberá llamar al REPL e ingresar los dós últimos comandos. Recomendamos ver algún video que les muestre como trabajar. Es la forma más eficiente de aprender lo básico.
+Una vez completado el proceso le debería aparecer una página en su navegador (browser) donde podrá comenzar a trabajar con su notebook.
+Mientras el administrador de notebooks esté activo, la consola REPL de Julia permanecerá inactiva, por lo que no podrá ingresar comandos en la misma.
+La cónsola REPL de Julia volverá a la normalidad, una vez que Ud. apague el administrador de notebooks en el browser.
+
+Cada vez que desee comenzar una nueva sesión para trabajar con el administrador de notebooks, deberá ingresar en la cónsola REPL de julia los dós últimos comandos:
+
+    julia> using IJulia    
+    julia> jupyterlab()
+
+Recomendamos ver algún video que les muestre como trabajar. Es la forma más eficiente de aprender lo básico.
 
 ### Primer notebook
 
