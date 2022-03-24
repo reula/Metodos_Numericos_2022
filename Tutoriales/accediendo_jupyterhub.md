@@ -66,4 +66,4 @@ Le deberá aparecer una pantalla del Jupyterhub remoto en esa dirección. Desde 
 
 ![](julia-en-jupyterhub.png)
 
-7. Para terminar la conección, cierre las páginas abiertas via el puerto `8000`. Cierre la consola REPL de Julia presionando <Ctrl D> y volverá a la terminal de linux en atom. Podrá salir de esta ingresando `exit`.
+4. Para terminar la conección, cierre las páginas abiertas via el puerto `8000`. Cierre la consola REPL de Julia presionando <Ctrl D> y volverá a la terminal de linux en atom. Podrá salir de esta ingresando `exit`.
