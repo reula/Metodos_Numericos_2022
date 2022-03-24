@@ -54,20 +54,16 @@ Para ello use el comando `passwd` (primero deberá ingresar la clave actual y lu
 
 #### Trabajando con jupyterlab
 
-Para trabajar con jupyterlab debemos primero cargar ciertas bibliotecas básicas en julia que permiten su interacción con jupyter.
+Para trabajar con **jupyterlab** debemos primero instalar los paquetes IJulia y Plots en el Julia instalado en la computadora atom de FaMAF. Estos paquetes permitirán que el Jupyter que viene instalado en Jupyterhub reconozca a Julia.
 
-1. En la terminal escriba `julia <enter>` Debiera estar entonces en el RPEL de julia 1.7.2
-  
-2. Dentro de Julia ingrese: `using Pkg; Pkg.add("IJulia"); Pkg.add("Plots") <enter>`
-3. Luego que termine de instalar los paquetes ingrese: `using IJulia <enter>`
-4. A continuación ingrese: `jupyterlab() <enter>` le preguntará si desea instalar algo, conteste que *si*. 
-5. Si lo desea, luego que termine la instalación puede cerrar sesión de julia, con `<control> D` (para salir del jupyterlab) y luego con `exit()`
-
-6. A continuación habra su browser e ingrese la dirección:
+1. En la terminal de linux en atom escriba `julia <enter>`. Con esto Debería ingresar a una terminal REPL de julia 1.7.2
+2. Dentro de la termina REPL de Julia ingrese: `using Pkg; Pkg.add("IJulia"); Pkg.add("Plots") <enter>`.
+3. A continuación habra su browser e ingrese la dirección:
 
 `http://localhost:8000`
 
-Le deberá aparecer una pantalla del jupyterlab remoto en esa página. Desde allí podrá trabajar con Julia.
+Le deberá aparecer una pantalla del Jupyterhub remoto en esa dirección. Desde allí, deberá poder ver en **New** la opción de poder crear una notebook de Julia.
 
-7. Para terminar la conección, cierre las páginas abiertas via el puerto `8000`, e ingrese la línea de comando `exit` en la terminal. 
-El `prompt` de la terminal debería volver al de su computadora.
+![](julia-en-jupyterhub.png)
+
+7. Para terminar la conección, cierre las páginas abiertas via el puerto `8000`. Cierre la consola REPL de Julia presionando <Ctrl D> y volverá a la terminal de linux en atom. Podrá salir de esta ingresando `exit`.
