@@ -17,7 +17,7 @@ Para establecer dicha conexión, desde una terminal linux, ingrese la siguiente 
 
 donde debe remplazar `usuario` por su nombre de usuario. Por ejemplo, si su nombre de usuario es `juan.perez`, remplaze `usuario` por `juan.perez`.
 
-Una vez ejecutada la linea de comando, le aparecerá la solicitud de contraseña y una vez que la haya ingresado con éxito en la terminal podrá ingresar comandos en la computadora remota (`atom`), aunque ingresar más comandos no será necesario por el momento. Sigue luego de las instrucciones para Windows.
+Una vez ejecutada la linea de comando, le aparecerá la solicitud de contraseña y una vez que la haya ingresado con éxito en la terminal podrá ingresar comandos en la computadora remota (`atom`). **Continúe luego de las instrucciones para Windows.**
 
 ### Desde Windows
 
@@ -54,11 +54,20 @@ Para ello use el comando `passwd` (primero deberá ingresar la clave actual y lu
 
 #### Trabajando con jupyterlab
 
-A continuación habra su browser e ingrese la dirección:
+Para trabajar con jupyterlab debemos primero cargar ciertas bibliotecas básicas en julia que permiten su interacción con jupyter.
+
+1. En la terminal escriba `julia <enter>` Debiera estar entonces en el RPEL de julia 1.7.2
+  
+2. Dentro de Julia ingrese: `using Pkg; Pkg.add("IJulia"); Pkg.add("Plots") <enter>`
+3. Luego que termine de instalar los paquetes ingrese: `using IJulia <enter>`
+4. A continuación ingrese: `jupyterlab() <enter>` le preguntará si desea instalar algo, conteste que *si*. 
+5. Si lo desea, luego que termine la instalación puede cerrar sesión de julia, con `<control> D` (para salir del jupyterlab) y luego con `exit()`
+
+6. A continuación habra su browser e ingrese la dirección:
 
 `http://localhost:8000`
 
 Le deberá aparecer una pantalla del jupyterlab remoto en esa página. Desde allí podrá trabajar con Julia.
 
-Para terminar la conección, cierre las páginas abiertas via el puerto `8000`, e ingrese la línea de comando `exit` en la terminal. 
+7. Para terminar la conección, cierre las páginas abiertas via el puerto `8000`, e ingrese la línea de comando `exit` en la terminal. 
 El `prompt` de la terminal debería volver al de su computadora.
