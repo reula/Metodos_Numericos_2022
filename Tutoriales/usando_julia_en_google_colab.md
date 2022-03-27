@@ -6,7 +6,7 @@ Esto se hace mediante una serie de comandos (en Python) que se ejecutan en la pr
 Luego de que esos comandos se ejecuten **debe recargar nuevamente la página** y a partir de ese momento 
 ya podrá seguir con los comandos usuales de Julia. 
 
-A modo de ejemplo podrá en contrar [aquí](https://colab.research.google.com/drive/19TQkEccGqs4F3xsqMIqZf-wEsAJMH36F?usp=sharing)
+A modo de ejemplo podrá en contrar [aquí](https://colab.research.google.com/drive/1DT0s38ViU0O6LS62b0NnO2sZP4N9V1AA?usp=sharing)
 una versión de la guía 1 lista para ejecutar en google colab. 
 
 ### Instrucciones:
