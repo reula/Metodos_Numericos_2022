@@ -5,5 +5,5 @@ Aquí mostramos como compartir archivos entre carpetas locales y remotas cuando 
 ### De local a remoto:
 
 1. abra el jupyterlab remoto, posicionese en la carpeta donde quiere enviar el archivo local.
-2. acciones el boton `upload` que aparece en el lado derecho-arriba de la pagina del jupyterlab ![upload]("upload.png").
+2. acciones el boton `upload` que aparece en el lado derecho-arriba de la pagina del jupyterlab ![upload](upload.png).
 3. Aparecerá una ventana de donde podrá elegir el archivo local y de esa forma enviarlo remoto. 
