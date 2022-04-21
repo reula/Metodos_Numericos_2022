@@ -8,7 +8,7 @@ Supongamos que en mi computadora personal existe un archivo llamado `archivo-en-
 
       juan@laptop $ scp ~/Desktop/mis-archivos/archivo-en-laptop.txt jperotti@atom.famaf.unc.edu.ar:~/parcial/
       
-Aquí, `scp` es el nombre del comando *security copy*, y se utiliza para copiar archivos entre máquinas via internet.
+Aquí, `scp` es el comando *security copy*, y se utiliza para copiar archivos de manera segura entre diferentes máquinas via internet.
       
 **Recuerde:** El camino completo de la carpeta `parcial` en atom es `/home/jperotti/parcial/`. De manera análoga, el camino completo de la carpeta `mis-archivos` en mi laptop es `/home/juan/mis-archivos/`
 
