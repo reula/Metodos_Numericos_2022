@@ -18,5 +18,4 @@ Supongamos que en *atom* existe un archivo `notebook-en-atom.ipynb` dentro de la
 
       juan@laptop $ scp jperotti@atom.famaf.unc.edu.ar:~/parcial/notebook-en-atom.ipynb ~/Desktop/mis-archivos/
 
-**Note:** Siempre trabajamos en nuestra laptop. Lo que cambia es el orden en que especificamos los directorios/archivos origen y destino. Siempre se especifica primero el origen y luego el destino del copiado.
-
+**Notar:** Siempre trabajamos en nuestra laptop. Lo que cambia es el orden en que especificamos los directorios/archivos origen y destino. Siempre se especifica primero el origen y luego el destino del copiado.
