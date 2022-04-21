@@ -1,4 +1,4 @@
-# Tutorial sobre cómo hacer un security copy `scp` desde y hacia *atom*
+# Tutorial sobre cómo hacer un secure copy `scp` desde y hacia *atom*
 
 Asumamos, por ejemplo, que en mi computadora personal mi usuario es `juan` y en la super-compu *atom* mi usuario es `jperotti`. 
 
@@ -8,7 +8,7 @@ Supongamos que en mi computadora personal existe un archivo llamado `archivo-en-
 
       juan@laptop $ scp ~/Desktop/mis-archivos/archivo-en-laptop.txt jperotti@atom.famaf.unc.edu.ar:~/parcial/
       
-Aquí, `scp` es el comando *security copy*, y se utiliza para copiar archivos de manera segura entre diferentes máquinas via internet.
+Aquí, `scp` es el comando *secure copy*, y se utiliza para copiar archivos de manera segura entre diferentes máquinas via internet.
       
 **Recuerde:** El camino completo de la carpeta `parcial` en atom es `/home/jperotti/parcial/`. De manera análoga, el camino completo de la carpeta `mis-archivos` en mi laptop es `/home/juan/mis-archivos/`
 
