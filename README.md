@@ -10,7 +10,7 @@ Repositorio `git` de la materia **Métodos Numéricos** de **FaMAF-UNC**.
 
 * Las clases virtuales grabadas serán subidas a: [https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5](https://drive.google.com/drive/folders/1ZGoj1t8iqBy2GJglczkD8Lcri_2MZHn5).
 
-* Algunas notas de teórico serán subidas a `Teoricos`ambos, en versión .ipynb y .pdf 
+* Algunas notas de teórico serán subidas a `Teoricos`ambos, en versión `.ipynb` y `.pdf` 
 
 ## Útiles
 
